@@ -72,3 +72,42 @@ body{
     border-top: 5px dotted white;
     animation: spin 2s linear infinite;
 }
+
+/* for desktop.html */
+
+#loading_bar{
+    position: absolute;
+    /* background-size: cover; */
+    height: 100vh;
+    width: 100vw;
+    z-index: 3;
+}
+.main_container{
+    color: white;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sign-in{
+    display: none;
+    width: 7vw;
+    height: 7vh;
+    font-size: 2.5vh;
+    background-color: rgb(123, 123, 123);
+    opacity: 50%;
+    color: white;
+    position: absolute;
+    border-radius: 15px;
+}
+#sign-in:hover{
+    transform: scale(1.01);
+    box-shadow: 0 0 15px rgb(255, 255, 255, 0.3);
+}
+#temp{
+    position: absolute;
+    display: none;
+    color: white;
+}

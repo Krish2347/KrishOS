@@ -13,6 +13,6 @@ function fullscreen() {
     document.getElementById('loading').style.display = 'Block';
     document.getElementById('loading_message').style.display = 'Block';
     setTimeout(() => {
-    window.location.href = "Loading_screen.html";
+    window.location.href = "desktop.html";
     }, 5000);
 }
