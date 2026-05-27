@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="desktop.css">
     <title>Document</title>
 </head>
 <body>
@@ -12,7 +13,18 @@
             <source src="Assets/loading_bar.mp4" type="video/mp4">
         </video>
         <button id="sign-in" onclick="launch()"> Sign-in </button>
-        <div id="temp"> Work in progress...</div>
+        <!-- desktop elements -->
+        <div id="desktop_container">
+            <video autoplay loop muted id="wallpaper">
+                <source src="Assets/desktop/background2.mp4" type="video/mp4">
+            </video>
+            <!-- boxes -->
+            <div class="containers" id="b1">
+                <button class="circles" id="c1" onclick="test()"></button>
+                <div id="l2" class="lines"></div>
+            </div>
+            <div class="containers" id="b2"> Date, time and weather Here </div>
+        </div>
     </div>
 </body>
 <script src="script_2.js"></script>

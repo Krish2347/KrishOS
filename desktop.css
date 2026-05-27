@@ -1,0 +1,62 @@
+#desktop_container{
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    /* opacity: 0%; */
+}
+#wallpaper{
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+}
+.containers{
+    position: absolute;
+    background-color: rgba(105, 110, 207, 0.22);
+    border: 2px solid rgba(38, 42, 134, 0.577);
+    backdrop-filter: blur(4px);
+}
+#b1{
+    /* margin: 1vw; */
+    width: 60vw;
+    height: 7vh;
+    bottom: 2.25vh;
+    left: 2vw;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    justify-content: right;
+    z-index: 1;
+}
+#b2{
+    color: white;
+    font-size: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 35vh;
+    width: 20vw;
+    border-radius: 15px;
+    top: 3vh;
+    right: 3vh;
+}
+#l2{
+    background-color: black;
+    height: 3vh;
+    width: 1px;
+    z-index: 1;
+}
+#c1{
+    display: block;
+    background-color: rgb(255, 255, 255, 0.3);
+    border-radius: 50%;
+    height: 4.5vh;
+    width: 4.5vh;
+    bottom: 3.5vh;
+    left: 50.5vw;
+    z-index: 2;
+}

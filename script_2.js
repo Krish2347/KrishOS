@@ -8,5 +8,5 @@ let temp = document.getElementById('temp');
 function launch() {
     document.documentElement.requestFullscreen();
     button.remove();
-    temp.style.display = 'block';
+    document.getElementById('desktop_container').style.display = 'Block'
 }
