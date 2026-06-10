@@ -23,11 +23,11 @@
     left: 2vw;
     transform: skew(30.5deg);
     display: flex;
-    align-items: center;
-    /* flex-direction: row; */
+    flex-direction: row;
     padding-right: 1vw;
     padding-left: 1vw;
     justify-content: right;
+    align-items: center;
     z-index: 1;
 }
 #b2{
@@ -43,7 +43,25 @@
     top: 3vh;
     right: 3vh;
 }
+#b3{
+    width: 30vw;
+    height: 7vh;
+    top: 1.5vh;
+    left: 2vw;
+    /* border-radius: 30px; */
+    transform: skew(-30.5deg);
+    display: flex;
+    align-items: center;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    justify-content: center;
+    z-index: 1;
+}
+.lines{
+    position: absolute;
+}
 #l2{
+    transform: skew(-30.5deg);
     background-color: black;
     height: 3vh;
     width: 1px;
@@ -55,15 +73,15 @@
     border-radius: 50%;
     height: 4.5vh;
     width: 4.5vh;
-    bottom: 3.5vh;
-    left: 50.5vw;
+    /* left: 50.5vw; */
     z-index: 2;
-}
-.lines{
-    position: absolute;
 }
 #l1{
     bottom: 0vh;
+    left: 0vw;
+}
+#l3{
+    top: 0vh;
     left: 0vw;
 }
 .hoverable:hover{
